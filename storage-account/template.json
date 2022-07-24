@@ -63,9 +63,6 @@
                 "tier": "Standard"
             },
             "properties": {
-                "cors": {
-                    "corsRules": []
-                },
                 "deleteRetentionPolicy": {
                     "allowPermanentDelete": false,
                     "enabled": true,
@@ -96,12 +93,6 @@
                 "tier": "Standard"
             },
             "properties": {
-                "protocolSettings": {
-                    "smb": {}
-                },
-                "cors": {
-                    "corsRules": []
-                },
                 "shareDeleteRetentionPolicy": {
                     "enabled": true,
                     "days": 7
@@ -116,9 +107,6 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_name'))]"
             ],
             "properties": {
-                "cors": {
-                    "corsRules": []
-                }
             }
         },
         {
@@ -129,9 +117,6 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_name'))]"
             ],
             "properties": {
-                "cors": {
-                    "corsRules": []
-                }
             }
         },
         {
