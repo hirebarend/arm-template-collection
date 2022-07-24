@@ -15,7 +15,7 @@
             "value": "hosting-plan-5980"
         },
         "serverFarmResourceGroup": {
-            "value": "resource-group-5980"
+            "value": "test"
         },
         "alwaysOn": {
             "value": false
