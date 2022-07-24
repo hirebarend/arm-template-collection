@@ -1,12 +1,48 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "sites_function_app_5980_name": {
-            "value": null
-        },
-        "serverfarms_ASP_test_8849_externalid": {
-            "value": null
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "subscriptionId": {
+      "value": "ef5781f2-319e-4710-84e9-f3d0139e46bb"
+    },
+    "name": {
+      "value": "my-app-5980"
+    },
+    "location": {
+      "value": "West Europe"
+    },
+    "hostingPlanName": {
+      "value": "hosting-plan-5980"
+    },
+    "serverFarmResourceGroup": {
+      "value": "my-app-5980"
+    },
+    "alwaysOn": {
+      "value": false
+    },
+    "storageAccountName": {
+      "value": "storageaccount5980"
+    },
+    "sku": {
+      "value": "Dynamic"
+    },
+    "skuCode": {
+      "value": "Y1"
+    },
+    "workerSize": {
+      "value": "0"
+    },
+    "workerSizeId": {
+      "value": "0"
+    },
+    "numberOfWorkers": {
+      "value": "1"
+    },
+    "use32BitWorkerProcess": {
+      "value": false
+    },
+    "linuxFxVersion": {
+      "value": "Node|14"
     }
+  }
 }

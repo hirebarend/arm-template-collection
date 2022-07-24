@@ -3,15 +3,12 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "namespaces_name": {
-            "defaultValue": null,
             "type": "String"
         },
         "namespaces_queues_name": {
-            "defaultValue": null,
             "type": "String"
         },
         "namespaces_topics_name": {
-            "defaultValue": null,
             "type": "String"
         }
     },
