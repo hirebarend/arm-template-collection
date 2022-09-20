@@ -88,7 +88,7 @@
             },
             {
               "name": "WEBSITE_CONTENTSHARE",
-              "value": "[concat(toLower(parameters('name')), '9728')]"
+              "value": "[parameters('storageAccountName')]"
             }
           ],
           "cors": {
