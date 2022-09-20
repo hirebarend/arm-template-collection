@@ -1,48 +1,24 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "subscriptionId": {
-            "value": "2427e3e3-f607-4705-8318-55e1e2605405"
-        },
-        "name": {
-            "value": "function-app-5980"
-        },
-        "location": {
-            "value": "West Europe"
-        },
-        "hostingPlanName": {
-            "value": "hosting-plan-5980"
-        },
-        "serverFarmResourceGroup": {
-            "value": "test"
-        },
-        "alwaysOn": {
-            "value": false
-        },
-        "storageAccountName": {
-            "value": "storageaccount5980"
-        },
-        "sku": {
-            "value": "Dynamic"
-        },
-        "skuCode": {
-            "value": "Y1"
-        },
-        "workerSize": {
-            "value": "0"
-        },
-        "workerSizeId": {
-            "value": "0"
-        },
-        "numberOfWorkers": {
-            "value": "1"
-        },
-        "use32BitWorkerProcess": {
-            "value": false
-        },
-        "linuxFxVersion": {
-            "value": "Node|16"
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "subscriptionId": {
+      "value": "2427e3e3-f607-4705-8318-55e1e2605405"
+    },
+    "name": {
+      "value": "function-app-5980"
+    },
+    "location": {
+      "value": "West Europe"
+    },
+    "hostingPlanName": {
+      "value": "hosting-plan-5980"
+    },
+    "serverFarmResourceGroup": {
+      "value": "test"
+    },
+    "storageAccountName": {
+      "value": "storageaccount5980"
     }
+  }
 }
