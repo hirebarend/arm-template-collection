@@ -1,15 +1,15 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "namespaces_name": {
-            "value": "my-app-5980"
-        },
-        "namespaces_queues_name": {
-            "value": "queue-5980"
-        },
-        "namespaces_topics_name": {
-            "value": "topic-5980"
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namespaces_name": {
+      "value": "service-bus-5980"
+    },
+    "namespaces_queues_name": {
+      "value": "queue-5980"
+    },
+    "namespaces_topics_name": {
+      "value": "topic-5980"
     }
+  }
 }
