@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "namespaces_name": {
-      "value": "service-bus-5980"
+      "value": "hirebarend-sb-example"
     },
     "namespaces_queues_name": {
-      "value": "queue-5980"
+      "value": "hirebarend-sbq-example"
     },
     "namespaces_topics_name": {
-      "value": "topic-5980"
+      "value": "hirebarend-sbt-example"
     }
   }
 }

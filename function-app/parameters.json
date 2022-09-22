@@ -6,19 +6,19 @@
       "value": "2427e3e3-f607-4705-8318-55e1e2605405"
     },
     "name": {
-      "value": "function-app-5980"
+      "value": "hirebarend-fa-example-001"
     },
     "location": {
       "value": "West Europe"
     },
     "hostingPlanName": {
-      "value": "hosting-plan-5980"
+      "value": "hirebarend-asp-example"
     },
     "serverFarmResourceGroup": {
       "value": "test"
     },
     "storageAccountName": {
-      "value": "storageaccount5980"
+      "value": "hirebarendsaexample001"
     }
   }
 }
