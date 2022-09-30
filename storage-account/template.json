@@ -9,81 +9,107 @@
             "type": "string"
         },
         "accountType": {
+            "defaultValue": "Standard_RAGRS",
             "type": "string"
         },
         "kind": {
+            "defaultValue": "StorageV2",
             "type": "string"
         },
         "accessTier": {
+            "defaultValue": "Hot",
             "type": "string"
         },
         "minimumTlsVersion": {
+            "defaultValue": "TLS1_2",
             "type": "string"
         },
         "supportsHttpsTrafficOnly": {
+            "defaultValue": true,
             "type": "bool"
         },
         "publicNetworkAccess": {
+            "defaultValue": "Enabled",
             "type": "string"
         },
         "allowBlobPublicAccess": {
+            "defaultValue": true,
             "type": "bool"
         },
         "allowSharedKeyAccess": {
+            "defaultValue": true,
             "type": "bool"
         },
         "allowCrossTenantReplication": {
+            "defaultValue": true,
             "type": "bool"
         },
         "defaultOAuth": {
+            "defaultValue": false,
             "type": "bool"
         },
         "networkAclsBypass": {
+            "defaultValue": "AzureServices",
             "type": "string"
         },
         "networkAclsDefaultAction": {
+            "defaultValue": "Allow",
             "type": "string"
         },
         "dnsEndpointType": {
+            "defaultValue": "Standard",
             "type": "string"
         },
         "keySource": {
+            "defaultValue": "Microsoft.Storage",
             "type": "string"
         },
         "encryptionEnabled": {
+            "defaultValue": true,
             "type": "bool"
         },
         "keyTypeForTableAndQueueEncryption": {
+            "defaultValue": "Account",
             "type": "string"
         },
         "infrastructureEncryptionEnabled": {
+            "defaultValue": false,
             "type": "bool"
         },
         "isContainerRestoreEnabled": {
+            "defaultValue": false,
             "type": "bool"
         },
         "isBlobSoftDeleteEnabled": {
+            "defaultValue": true,
             "type": "bool"
         },
         "blobSoftDeleteRetentionDays": {
+            "defaultValue": 7,
             "type": "int"
         },
         "isContainerSoftDeleteEnabled": {
+            "defaultValue": true,
             "type": "bool"
         },
         "containerSoftDeleteRetentionDays": {
+            "defaultValue": 7,
             "type": "int"
         },
         "changeFeed": {
+            "defaultValue": false,
             "type": "bool"
         },
         "isVersioningEnabled": {
+            "defaultValue": false,
             "type": "bool"
         },
         "isShareSoftDeleteEnabled": {
+            "defaultValue": true,
             "type": "bool"
         },
         "shareSoftDeleteRetentionDays": {
+            "defaultValue": 7,
             "type": "int"
         }
     },
